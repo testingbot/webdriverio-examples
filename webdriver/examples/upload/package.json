@@ -1,0 +1,18 @@
+{
+  "name": "webdriverio-webdriver-examples-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test.testingbot": "wdio test/configs/wdio.testingbot.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^7.16.16",
+    "@wdio/dot-reporter": "^7.16.14",
+    "@wdio/local-runner": "^7.16.16",
+    "@wdio/mocha-framework": "^7.16.15",
+    "@wdio/testingbot-service": "^7.16.16"
+  }
+}
