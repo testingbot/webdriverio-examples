@@ -24,6 +24,9 @@ jobs:
     defaults:
       run:
         working-directory: ./webdriver/examples/cucumberjs/
+    env:
+      TB_KEY: ${{ secrets.TB_KEY }}
+      TB_SECRET: ${{ secrets.TB_SECRET }}
     strategy:
       matrix:
         node-version: [12.x, 14.x, 16.x]
