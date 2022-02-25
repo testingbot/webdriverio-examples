@@ -10,7 +10,7 @@ To install all necessary dependencies, please run this command:
 
 ## Run tests on TestingBot
 To start running your tests on TestingBot, please make sure you have set the two necessary environment variables (`TB_KEY` and `TB_SECRET`).
-These variables contain your TestingBot key and secret, which you can obtain for free from [TestingBot](https://testingbot.com).
+These variables contain your TestingBot Key and Secret, which you can obtain for free from [TestingBot](https://testingbot.com).
 
     npm run test.testingbot
 
