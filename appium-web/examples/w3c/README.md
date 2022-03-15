@@ -21,7 +21,7 @@ These variables contain your TestingBot Key and Secret, which you can obtain for
     npm run test.testingbot
 
 ## Run tests locally
-You can also run the same test on your local machine. By default, this will open a Chrome browser and run the test.
+You can also run the same test on your local machine. By default, this will open an Android Emulator (defined as `Pixel 3`) and an iOS simulator (`iPhone 11` with `iOS 14.2`).
 
     npm run test.local
 
