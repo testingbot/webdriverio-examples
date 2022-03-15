@@ -7,6 +7,8 @@ This repository contains various examples showing how to run [WebdriverIO](https
 - [WebdriverIO with Jasmine](webdriver/examples/jasmine)
 - [WebdriverIO with Mocha](webdriver/examples/mocha)
 - [Testing with file upload](webdriver/examples/upload)
+- [Appium Mobile Web Testing](appium-web/examples/w3c)
+- [Appium Mobile App Testing](appium-app/examples/app-automation)
 
 ## Prerequisites
 
