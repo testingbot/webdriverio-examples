@@ -4,7 +4,7 @@ exports.config = {
 	 * specify test files
 	 */
 	specs: [
-		'./test/features/**/*.feature'
+		'./../features/**/*.feature'
 	],
 
 	/**

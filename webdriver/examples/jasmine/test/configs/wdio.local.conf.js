@@ -4,7 +4,7 @@ exports.config = {
 	 * specify test files
 	 */
 	specs: [
-		'./test/runner-specs/jasmine.spec.js'
+		'./../runner-specs/jasmine.spec.js'
 	],
 
 	/**

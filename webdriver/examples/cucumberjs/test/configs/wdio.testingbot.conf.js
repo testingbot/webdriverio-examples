@@ -4,7 +4,7 @@ exports.config = {
 	 * specify test files
 	 */
 	specs: [
-		'./test/features/**/*.feature'
+		'./../features/**/*.feature'
 	],
 
 	/**
@@ -19,7 +19,7 @@ exports.config = {
 	/**
 	 * test configurations
 	 */
-	logLevel: 'silent',
+	logLevel: 'debug',
 	coloredLogs: true,
 	screenshotPath: 'screenshots',
 	waitforTimeout: 10000,

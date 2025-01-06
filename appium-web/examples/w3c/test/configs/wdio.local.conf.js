@@ -4,7 +4,7 @@ exports.config = {
 	 * specify test files
 	 */
 	specs: [
-		'./test/runner-specs/mocha.test.js'
+		'./../runner-specs/mocha.test.js'
 	],
 
 	/**
@@ -21,8 +21,8 @@ exports.config = {
 	    // All Appium capabilities, see
 	    // http://appium.io/docs/en/writing-running-appium/caps/
 	    // should be prefixed with `appium:{capability-name}`
-	    'appium:deviceName': 'Pixel 3',
-	    'appium:platformVersion': '10',
+	    'appium:deviceName': 'Pixel 8',
+	    'appium:platformVersion': '14',
 	    // For the W3C capabilities, please check
 	    // https://www.w3.org/TR/webdriver1/#capabilities
 	    browserName: 'chrome',
