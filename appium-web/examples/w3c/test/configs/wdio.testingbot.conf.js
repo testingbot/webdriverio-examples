@@ -65,13 +65,14 @@ exports.config = {
 	logLevel: 'debug',
 	coloredLogs: true,
 	screenshotPath: 'screenshots',
+        connectionRetryTimeout: 480000,
 	waitforTimeout: 10000,
 	framework: 'mocha',
 	services: [
 	  ['testingbot']
 	],
 	user: process.env.TB_KEY,
-    key: process.env.TB_SECRET,
+        key: process.env.TB_SECRET,
 
 	reporters: ['dot'],
 	reporterOptions: {

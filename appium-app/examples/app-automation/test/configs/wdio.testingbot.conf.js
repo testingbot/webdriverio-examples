@@ -21,8 +21,8 @@ exports.config = {
 	    // All Appium capabilities, see
 	    // http://appium.io/docs/en/writing-running-appium/caps/
 	    // should be prefixed with `appium:{capability-name}`
-	    'appium:deviceName': 'Pixel 3',
-	    'appium:platformVersion': '10',
+	    'appium:deviceName': 'Pixel 9',
+	    'appium:platformVersion': '15',
 	    // For the W3C capabilities, please check
 	    // https://www.w3.org/TR/webdriver1/#capabilities
 	    'appium:app': 'https://testingbot.com/appium/sample.apk',
@@ -44,8 +44,8 @@ exports.config = {
 	    // All Appium capabilities, see
 	    // http://appium.io/docs/en/writing-running-appium/caps/
 	    // should be prefixed with `appium:{capability-name}`
-	    'appium:deviceName': 'iPhone 11',
-	    'appium:platformVersion': '14.2',
+	    'appium:deviceName': 'iPhone 16',
+	    'appium:platformVersion': '18.3',
 	    // For the W3C capabilities, please check
 	    // https://www.w3.org/TR/webdriver1/#capabilities
 	    'appium:app': 'https://testingbot.com/appium/sample.zip',
@@ -65,13 +65,14 @@ exports.config = {
 	logLevel: 'debug',
 	coloredLogs: true,
 	screenshotPath: 'screenshots',
+	connectionRetryTimeout: 480000,
 	waitforTimeout: 10000,
 	framework: 'mocha',
 	services: [
 	  ['testingbot']
 	],
 	user: process.env.TB_KEY,
-    key: process.env.TB_SECRET,
+        key: process.env.TB_SECRET,
 
 	reporters: ['dot'],
 	reporterOptions: {
