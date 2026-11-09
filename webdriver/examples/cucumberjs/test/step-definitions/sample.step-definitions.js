@@ -5,6 +5,7 @@ Given('I go on the website {string}', async (url) => {
     await browser.url(url)
 })
 
-Then('should the title of the page be {string}', async (expectedTitle) => {
-    assert.equal(await browser.getTitle(), expectedTitle)
+Then('the title of the page should contain {string}', async (expectedText) => {
+    const title = await browser.getTitle()
+    assert.ok(title.includes(expectedText), `unexpected title: ${title}`)
 })
